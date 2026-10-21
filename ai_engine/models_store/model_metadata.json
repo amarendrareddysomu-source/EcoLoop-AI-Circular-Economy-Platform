@@ -1,0 +1,209 @@
+{
+  "model_name": "MobileNetV3_Small_RealImages_55Classes",
+  "model_architecture": "MobileNetV3 Small (Replaced Head Linear 1024 -> 55)",
+  "dataset_name": "CircularWasteNet-55 Real Image Dataset",
+  "dataset_size": 26682,
+  "train_samples": 22870,
+  "val_samples": 3812,
+  "model_version": "6.1.0",
+  "training_date": "2026-08-20 21:28:42",
+  "synthetic_fallback_used": false,
+  "training_configuration": {
+    "epochs": 5,
+    "batch_size": 16,
+    "optimizer": "AdamW (lr=1e-3, weight_decay=1e-4)",
+    "scheduler": "CosineAnnealingLR",
+    "loss_function": "CrossEntropyLoss (label_smoothing=0.1)",
+    "checkpoint_saved": "/Users/akashreddy/Desktop/SE/ai_engine/models_store/best.pt"
+  },
+  "measured_performance_metrics": {
+    "best_epoch": 5,
+    "final_train_loss": 0.5617,
+    "final_train_accuracy": 0.9873,
+    "best_val_loss": 0.5455,
+    "best_top1_accuracy": 0.9895,
+    "best_top5_accuracy": 0.9995,
+    "precision": 0.9896,
+    "recall": 0.9895,
+    "f1_score": 0.9895,
+    "confusion_matrix": [
+      [
+        216,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        199,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        458,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        564,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        263,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        3,
+        2,
+        0,
+        1,
+        457,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        2,
+        1,
+        1,
+        514,
+        0,
+        5
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        412,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        149
+      ]
+    ]
+  },
+  "epoch_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7806,
+      "train_acc": 0.8976,
+      "val_loss": 0.7297,
+      "val_top1_acc": 0.9163,
+      "val_top5_acc": 0.9953,
+      "precision": 0.9211,
+      "recall": 0.9163,
+      "f1_score": 0.9158
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7116,
+      "train_acc": 0.9265,
+      "val_loss": 0.6711,
+      "val_top1_acc": 0.9446,
+      "val_top5_acc": 0.9976,
+      "precision": 0.946,
+      "recall": 0.9446,
+      "f1_score": 0.9449
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6438,
+      "train_acc": 0.9551,
+      "val_loss": 0.6473,
+      "val_top1_acc": 0.9494,
+      "val_top5_acc": 0.999,
+      "precision": 0.9506,
+      "recall": 0.9494,
+      "f1_score": 0.9497
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5908,
+      "train_acc": 0.9758,
+      "val_loss": 0.5725,
+      "val_top1_acc": 0.9801,
+      "val_top5_acc": 0.9992,
+      "precision": 0.98,
+      "recall": 0.9801,
+      "f1_score": 0.9799
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5617,
+      "train_acc": 0.9873,
+      "val_loss": 0.5455,
+      "val_top1_acc": 0.9895,
+      "val_top5_acc": 0.9995,
+      "precision": 0.9896,
+      "recall": 0.9895,
+      "f1_score": 0.9895
+    }
+  ]
+}

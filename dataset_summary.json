@@ -1,0 +1,39 @@
+{
+  "datasets_downloaded": [
+    {
+      "dataset_name": "Unified Circular Economy Waste Corpus (New DS + Multi-Class Garbage Classification)",
+      "download_location": "/Users/akashreddy/Desktop/SE/new ds",
+      "download_status": "COMPLETED_SUCCESSFULLY",
+      "images_downloaded": 14423,
+      "train_images": 12362,
+      "test_images": 2061
+    }
+  ],
+  "total_real_photographs_downloaded": 14423,
+  "total_images_mapped": 14423,
+  "classes_populated_count": 10,
+  "classes": [
+    "battery",
+    "biological",
+    "cardboard",
+    "clothes",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "shoes",
+    "trash"
+  ],
+  "class_mapping_breakdown": {
+    "glass": 2237,
+    "plastic": 2079,
+    "paper": 1930,
+    "clothes": 1892,
+    "cardboard": 1814,
+    "shoes": 1449,
+    "metal": 930,
+    "battery": 756,
+    "biological": 699,
+    "trash": 637
+  }
+}
